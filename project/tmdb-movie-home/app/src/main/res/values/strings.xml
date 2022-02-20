@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TMDb - Movies Home</string>
+    <string name="details_item_rating">Rating : </string>
+    <string name="details_item_votes">Votes : </string>
+    <string name="genere_id_12">Adventure</string>
+    <string name="genere_id_14">Fantasy</string>
+    <string name="genere_id_16">Animation</string>
+    <string name="genere_id_18">Drama</string>
+    <string name="genere_id_27">Horror</string>
+    <string name="genere_id_28">Action</string>
+    <string name="genere_id_35">Mystery</string>
+    <string name="genere_id_53">Thriller</string>
+    <string name="genere_id_80">Crime</string>
+    <string name="genere_id_878">Science Fiction</string>
+    <string name="genere_id_9648">Mystery</string>
+    <string name="genere_id_10751">Family</string>
+    <string name="genere_id_10752">War</string>
+</resources>
