@@ -11,21 +11,25 @@ The application is build based on MVVM pattern using below android architecture 
          
  	  		    
 [View]  --(Livedata)-->   [ViewModel]   --(RxJava Observables)-->    [Repo1]/[Repo2]/[Repo3]
-			    
-				      .
-				      .
+
 
 ## Demo
 
 root folder [demo]
 apk:
-	mock: <img src="apk/app-mock-debug.apk">
-	prod: <img src="apk/app-prod-debug.apk">
+
+	mock: apk/app-mock-debug.apk
+
+	prod: apk/app-prod-debug.apk
+
 	
 
 Videos:
+
 	Mock : videos/mock.mp4
+
  	Prod : videos/prod.mp4
+
 
 
 Images: 
@@ -75,28 +79,41 @@ It created below folder structue at source (src root) level:
 4. test
 5. androidtest
 
-For mock variant, main and mock folders are included and prod is excluded. 
+For mock variant, main and mock folders are included and prod is excluded.
+
 	[main]
+
 	[mock]
 
 <img src="Images/MockFolderStructure.png">
 Similarly for prod variant, main and prod folders are included and mock is excluded.
+
 	[main]
+
 	[prod]
 
 <img src="Images/ProdFolderStructure.png">
 
 Folder arrangement for MVVM:
 root folder [main]
+
 		[com.tmdb]
+
 			[common]   --> common files for constants, base classes for activity and viewmodel.
+
 			[data]     --> model or pojo defination, interface for repository which defines signature for implementation for prod and mock.
+
                  	[ui]       --> for views, viewadapters, viewmodels, viewEntities per screen
+
 				
 root folder [prod]
+
 		[com.tmdb.data] --> for repository implementation and consuming web services
+
 root folder [mock]
+
 		[com.tmdb.data] --> for repository implementation and mock data
+
 
 
 ### PreFixes used to segregate dependencies based on build flavours
