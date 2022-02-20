@@ -22,16 +22,23 @@ The application is build based on MVVM pattern using below android architecture 
 root folder [TMDB]
 
 apk:
-	mock: <img src="demo/apk/app-mock-debug.apk">
-	prod: <img src="demo/apk/app-prod-debug.apk">
+
+	mock: demo/apk/app-mock-debug.apk
+
+	prod: demo/apk/app-prod-debug.apk
+
 
 Videos:
+
 	Mock : demo/videos/mock.mp4
+
  	Prod : demo/videos/prod.mp4
+
 
 Images: 
 	home screen: <img src="demo/Images/home.jpg">
 	details screen: <img src="demo/Images/details.jpg">
+
 
 ## Project strucutre
 Added two build flavours
@@ -77,25 +84,38 @@ It created below folder structue at source (src root) level:
 5. androidtest
 
 For mock variant, main and mock folders are included and prod is excluded. 
+
 	[main]
+
 	[mock]
 
 <img src="demo/Images/MockFolderStructure.png">
 Similarly for prod variant, main and prod folders are included and mock is excluded.
+
 	[main]
+
 	[prod]
 <img src="demo/Images/ProdFolderStructure.png">
 
 Folder arrangement for MVVM:
 root folder [main]
+
 		[com.tmdb]
+	
 			[common]   --> common files for constants, base classes for activity and viewmodel.
+
 			[data]     --> model or pojo defination, interface for repository which defines signature for implementation for prod and mock.
+
                  	[ui]       --> for views, viewadapters, viewmodels, viewEntities per screen
+			
+
 				
 root folder [prod]
+
 		[com.tmdb.data] --> for repository implementation and consuming web services
+
 root folder [mock]
+
 		[com.tmdb.data] --> for repository implementation and mock data
 
 
