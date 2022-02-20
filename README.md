@@ -10,12 +10,8 @@ The application is build based on MVVM pattern using below android architecture 
 - Retrofit for consuming rest api data from (for consuming rest api data from 'https://developers.themoviedb.org/3/'.
 
 
-    
-      
-
  [View]  --(Livedata)-->   [ViewModel]   --(RxJava Observables)-->    [Repo1]/[Repo2]/[Repo3] 
-                                                   
-				      .
+ 
 				      
 ## Demo
 
